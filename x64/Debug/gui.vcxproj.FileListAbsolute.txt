@@ -1,0 +1,4 @@
+Y:\code\cpp\gui\x64\Debug\gui.exe
+D:\share\code\cpp\gui\x64\Debug\gui.exe
+C:\Users\Denis\Desktop\gui\x64\Debug\gui.exe
+Z:\cpp\wgui\x64\Debug\gui.exe

@@ -1,0 +1,16 @@
+﻿  gui.cpp
+  main.cpp
+C:\Users\Denis\Desktop\gui\main.cpp(69,11): error C2440: reinterpret_cast: невозможно преобразовать "DELEGATE::ReturnType (__cdecl Test::* )(void)" в "DELEGATE::FUNC"
+C:\Users\Denis\Desktop\gui\main.cpp(69,11): message : Указатели на члены имеют различные представления; нельзя выполнить приведение между ними
+C:\Users\Denis\Desktop\gui\main.cpp(94,23): message : выполняется компиляция ссылки на экземпляр шаблон функции "DELEGATE::DELEGATE<Test,>(Owner *,DELEGATE::ReturnType (__cdecl Test::* )(void))"
+          with
+          [
+              Owner=Test
+          ]
+C:\Users\Denis\Desktop\gui\main.cpp(69,11): error C2440: reinterpret_cast: невозможно преобразовать "DELEGATE::ReturnType (__cdecl Test::* )(int)" в "DELEGATE::FUNC"
+C:\Users\Denis\Desktop\gui\main.cpp(69,11): message : Указатели на члены имеют различные представления; нельзя выполнить приведение между ними
+C:\Users\Denis\Desktop\gui\main.cpp(108,23): message : выполняется компиляция ссылки на экземпляр шаблон функции "DELEGATE::DELEGATE<Test,int>(Owner *,DELEGATE::ReturnType (__cdecl Test::* )(int))"
+          with
+          [
+              Owner=Test
+          ]
